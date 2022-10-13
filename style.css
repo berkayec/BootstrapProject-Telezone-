@@ -1,0 +1,30 @@
+body {
+    background-color: #E9ECEF;
+}
+
+#bg-navbar{
+    color: red;
+}
+
+#navbarMain{
+    color: white;
+    font: bold;
+}
+
+#navbarUrunlerimiz {
+    color: rgba(255, 255, 255, 0.599);
+}
+
+#navbarHakkimizda {
+    color: rgba(255, 255, 255, 0.599);
+}
+
+#reklam{
+    animation: blink 1.2s infinite;
+}
+
+@keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+}
